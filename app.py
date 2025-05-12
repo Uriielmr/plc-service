@@ -9,10 +9,10 @@ PLC_IP = '192.168.1.100'  # Reemplaza con la IP real del PLC
 
 # Configuración de MySQL
 DB_CONFIG = {
-    'host': 'localhost',  # Cambia si el servidor MySQL está en otro lugar
-    'user': 'root',       # Usuario de MySQL
-    'password': 'tu_contraseña',  # Reemplaza con tu contraseña
-    'database': 'plc_data'  # Nombre de la base de datos
+    'host': 'localhost',  
+    'user': 'root',       
+    'password': 'tu_contraseña', 
+    'database': 'plc_data' 
 }
 
 def leer_datos_plc():
