@@ -1,6 +1,3 @@
-
-
-
 from pylogix import PLC
 import mysql.connector
 
